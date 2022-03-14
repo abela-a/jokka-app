@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import homes from '~/data/homes';
+import homes from '~/data/homes'
 
 export default {
   head() {
