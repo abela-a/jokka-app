@@ -4,9 +4,12 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'jokka-app',
+    titleTemplate: '%s - Jokka App',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'id'
+    },
+    bodyAttrs: {
+      class: ["my-style"]
     },
     meta: [
       { charset: 'utf-8' },
